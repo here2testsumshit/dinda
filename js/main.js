@@ -18,5 +18,5 @@ onload = () => {
     appendTitle();
 
     clearTimeout(c);
-  }, 1000);
+  }, 500);
 };
