@@ -1,5 +1,5 @@
 const title = document.querySelector('.title')
-const text = 'Maaf Belum Bisa Datang'.split('')
+const text = 'Senang Kenal Denganmu!'.split('')
 for (let index = 0; index < text.length; index++) {
   if (text[index] !== ' ') {
     title.innerHTML += `<span>${text[index]}<span/>`
